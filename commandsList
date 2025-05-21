@@ -1,0 +1,28 @@
+
+Command: /ping
+  Description:
+    Sends a message to the sender with their current ping to the server in milliseconds
+
+Command: /tps
+  Description:
+    Sends a message to the sender with the average ticks per second (tps) of the server in the past minuite
+  Known Issues:
+    Conflicts with paper/bukkit's prexisting /tps command, runs that one instead of this /tps command. I will not be updating /tps in the future as it already exists
+
+  Command: /fly
+    Requirements: Operator Permissions
+    Usage: "/fly"
+      Description
+        Gives the player the ability to fly regardless of their gamemode and cancels all fall damage
+    Usage: "/fly [ign]"
+      Description:
+        Gives the player specified the ability to fly regardless of their gamemode and cancels all fall damage
+
+  Command: /showDeathMessages
+    Requirements: Operator Permissions
+    Usage: /showDeathMessages [true/false]
+      Description:
+        Sets whether or not death messages should be shown in the chat.
+    Known Issues:
+      Doesn't work lmao
+  
